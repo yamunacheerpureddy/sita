@@ -1,0 +1,66 @@
+-- use school;
+-- drop database school;
+-- drop database schl;
+--  create database clg;
+-- use clg;
+-- create table teachers
+-- (tid int primary key auto_increment,tname varchar(30) not null,
+-- gender char(1),
+-- salary decimal(10,2) check (salary>10000.00),
+-- dob date,
+-- sub varchar(20),
+-- country varchar(20) default "india");
+-- insert into teachers values 
+-- (111,"usha","M",15000,'1923-03-02',"social","india");
+-- insert into teachers (tname,gender,salary,dob,sub,country) values
+-- ("rajesh","M",15000,'1763-03-02',"science","india");
+-- insert into teachers (tname,gender,salary,dob,sub,country) values
+-- ("Anita", "F", 12000, '1985-07-19', "Mathematics", "India"),
+-- ("John", "M", 16000, '1978-11-30', "English", "USA"),
+-- ("Maria", "F", 14000, '1982-04-12', "History", "USA"),
+-- ("Chen", "M", 13000, '1990-02-24', "Chemistry", "China"),
+-- ("Liu", "F", 11000, '1988-05-15', "Physics", "China"),
+-- ("Ahmed", "M", 12500, '1975-09-08', "Biology", "Egypt"),
+-- ("Fatima", "F", 11500, '1991-06-22', "Geography", "Egypt"),
+-- ("Carlos", "M", 13500, '1980-01-30', "Art", "Mexico"),
+-- ("Sofia", "F", 14500, '1986-12-05', "Music", "Mexico"),
+-- ("Luca", "M", 15500, '1972-10-13', "Literature", "Italy"),
+-- ("Giulia", "F", 12500, '1993-08-27', "Philosophy", "Italy"),
+-- ("Olivia", "F", 15000, '1989-09-16', "Economics", "UK"),
+-- ("Harry", "M", 16000, '1974-03-11', "Political Science", "UK"),
+-- ("Anna", "F", 14000, '1981-07-07', "Sociology", "Germany"),
+-- ("Hans", "M", 15500, '1987-11-23', "Engineering", "Germany"),
+-- ("Elena", "F", 12000, '1992-05-17', "French", "France"),
+-- ("Pierre", "M", 13000, '1984-12-06', "Spanish", "France"),
+-- ("Ayesha", "F", 12500, '1989-01-25', "Arabic", "Saudi Arabia"),
+-- ("Omar", "M", 13500, '1976-08-19', "Islamic Studies", "Saudi Arabia"),
+-- ("Yuki", "F", 14500, '1995-03-29', "Japanese", "Japan"),
+-- ("Hiroshi", "M", 14000, '1983-10-03', "Biochemistry", "Japan"),
+-- ("Nina", "F", 15500, '1987-12-11', "Art History", "Russia"),
+-- ("Dmitri", "M", 16000, '1982-04-17', "Physics", "Russia"),
+-- ("Maya", "F", 11000, '1994-02-14', "Astronomy", "South Africa"),
+-- ("Thabo", "M", 12000, '1985-06-27', "Political Science", "South Africa"),
+-- ("Jin", "F", 12500, '1991-09-30', "History", "South Korea"),
+-- ("Minho", "M", 13000, '1984-03-22', "Mathematics", "South Korea"),
+-- ("Eva", "F", 14500, '1990-08-13', "Philosophy", "Spain"),
+-- ("Luis", "M", 15500, '1980-01-19', "Literature", "Spain"),
+-- ("Amina", "F", 14000, '1992-12-01', "Anthropology", "Nigeria"),
+-- ("Kwame", "M", 13500, '1986-05-11', "Sociology", "Nigeria");
+-- update teachers
+-- set sub="SOICAL"
+-- Where tid=113;
+-- delete from teachers
+-- Where tid=112;
+-- select * from teachers;
+-- select tname,
+-- gender from
+-- teachers where salary>15000.00;
+-- select  distinct country  from teachers;
+-- order by
+-- retrive the people list aplha;
+-- select * from
+-- teachers order by tname asc;
+
+
+
+
